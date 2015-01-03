@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #ddd;
+}
+
+.container {
+    width: 1150px;
+    height: 700px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    background: #fff;
+    padding: 50px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.diagramBlock {
+    position: absolute;
+    border: 2px solid #709CBA;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+    font-family: helvetica, arial;
+    font-size: 10pt;
+}
